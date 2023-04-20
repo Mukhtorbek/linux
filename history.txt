@@ -1,0 +1,18 @@
+   0 mkdir /var
+   1 touch /var mukhtorbek.txt
+   2 ls /var
+   3 touch /var/mukhtorbek.txt
+   4 ls /var
+   5 date > mukhtorbek.txt
+   6 tail -n 3 /etc/group | sed 's/user/ВАШЕИМЯ/g' >> ~/ВАШЕИМЯ.txt
+   7 tail -n 3 /etc/group | sed 's/user/mukhtorbek/g' >> ~/mukhtorbek.txt
+   8 vi mukhtorbek.txt
+   9 mkdir -p /root/newfolder/test/mukhtorbek2.txt
+  10 mv mukhtorbek.txt /root/newfolder/test/mukhtorbek2.txt
+  11 cat ~/readme.txt >> ~/newfolder/test/mukhtorbek2.txt
+  12 cat readme.txt >> /newfolder/test/mukhtorbek2.txt
+  13 cat readme.txt >> /root/newfolder/test/mukhtorbek2.txt
+  14 cat readme.txt > /root/newfolder/test/mukhtorbek.txt
+  15 history
+  16 cp history > Todays_history
+  17 history> history.txt
